@@ -2,7 +2,7 @@
 
 See this soundboard at work here:
 
-https://iarobinson.github.io/drumMachine/
+https://iarobinson.github.io/doc-holiday-soundboard/
 
 This is a project to fulfill one of the front end development projects which make up the Free Code Camp curriculum.
 
