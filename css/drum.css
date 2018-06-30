@@ -18,3 +18,7 @@ td {
 .drum-pad {
   width: 100%;
 }
+
+#display {
+  text-align: center;
+}
