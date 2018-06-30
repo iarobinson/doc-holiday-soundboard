@@ -4,8 +4,7 @@ This is a project to fulfill one of the front end development projects which mak
 
 Because this is a single page application, I think it makes most sense to build it with a very simple, boilerplat type front end framework. I'll us Skeleton as it's mobile responsive and very light. Also, I plan to use vanilla JavaScript at this point because I think the application is quite simple and keeping it as 'bare bones' as possible will be more maintainable.
 
-![Image of Doc Holiday in Tombstone]
-(https://github.com/iarobinson/drumMachine/blob/master/library/image/docHolidaySoundBoard.jpg)
+![Image of Doc Holiday in Tombstone](https://github.com/iarobinson/drumMachine/blob/master/library/image/docHolidaySoundBoard.jpg)
 
 ## Tombstone and Doc Holiday
 
