@@ -2,28 +2,85 @@
 <html>
 <head>
   <title>A simple drum machine</title>
+  
+  <!-- Free Code Camp testing suite -->
+  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+  
+  <!-- Skeleton Framework - Thank you DHG -->
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  
+  <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="css/drum.css">
+  
+  <!-- Custom JS -->
+  <script src="js/drum.js"></script>
 </head>
 <body>
-  <h1>Hello World</h1>
-  <table>
-    <tr>
-      <td>1, 1</td>
-      <td>1, 2</td>
-      <td>1, 3</td>
-    </tr>
-    <tr>
-      <td>2, 1</td>
-      <td>2, 2</td>
-      <td>2, 3</td>
-    </tr>
-    <tr>
-      <td>3, 1</td>
-      <td>3, 2</td>
-      <td>3, 3</td>
-    </tr>
-  </table>
+  <div id="drum-machine" class="container">
+    <h1 id="display">simple drum machine</h1>
+    <table>
+      <tr>
+        <td>
+          <a id="1_1" href="#" class="drum-pad button button-primary">
+            Q
+            <audio src="audioClip1_1.mp3" class="clip" id="Q">
+          </a>
+        </td>
+        <td>
+          <a id="1_2" href="#" class="drum-pad button button-primary">
+            W
+            <audio src="audioClip1_2.mp3" class="clip" id="W">
+          </a>
+        </td>
+        <td>
+          <a id="1_3" href="#" class="drum-pad button button-primary">
+            E
+            <audio src="audioClip1_3.mp3" class="clip" id="E">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a id="2_1" href="#" class="drum-pad button button-primary">
+            A
+            <audio src="audioClip2_1.mp3" class="clip" id="A">
+          </a>
+        </td>
+        <td>
+          <a id="2_2" href="#" class="drum-pad button button-primary">
+            S
+            <audio src="audioClip2_2.mp3" class="clip" id="S">
+          </a>
+        </td>
+        <td>
+          <a id="2_3" href="#" class="drum-pad button button-primary">
+            D
+            <audio src="audioClip2_3.mp3" class="clip" id="D">
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a id="3_1" href="#" class="drum-pad button button-primary">
+            Z
+            <audio src="audioClip3_1.mp3" class="clip" id="Z">
+          </a>
+        </td>
+        <td>
+          <a id="3_2" href="#" class="drum-pad button button-primary">
+            X
+            <audio src="audioClip3_2.mp3" class="clip" id="X">
+          </a>
+        </td>
+        <td>
+          <a id="3_3" href="#" class="drum-pad button button-primary">
+            C
+            <audio src="audioClip3_3.mp3" class="clip" id="C">
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
